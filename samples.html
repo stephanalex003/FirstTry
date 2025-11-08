@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Coloring Sheet Samples | FirstTry</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+    .sample-img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .sample-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
+      <h1 class="text-2xl font-bold text-gray-900">🎨 FirstTry</h1>
+      <a href="index.html" class="text-gray-700 hover:text-purple-600 font-medium">← Back to Home</a>
+    </div>
+  </header>
+
+  <!-- Samples Section -->
+  <section class="py-16" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">Sample Coloring Sheets</h2>
+      <p class="text-lg text-gray-600 mb-12">
+        Explore a few free samples from our full digital coloring collection.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+     <img src="images/sample1.jpg.jpg" alt="Sample 1" class="rounded-xl shadow-lg sample-img">
+     <img src="images/sample2.jpg.jpg" alt="Sample 2" class="rounded-xl shadow-lg sample-img">
+     <img src="images/sample3.jpg.jpg" alt="Sample 3" class="rounded-xl shadow-lg sample-img">
+     <img src="images/sample4.jpg.jpg" alt="Sample 4" class="rounded-xl shadow-lg sample-img">
+     <img src="images/sample5.jpg.jpg" alt="Sample 5" class="rounded-xl shadow-lg sample-img">
+     <img src="images/sample6.jpg.jpg" alt="Sample 6" class="rounded-xl shadow-lg sample-img">
+
+      <div class="mt-12">
+        <a href="https://rzp.io/rzp/EXnk8PVu" target="_blank" rel="noopener noreferrer">
+          <button class="bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+            Buy Full Collection @49
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 text-center">
+    <p>&copy; 2025 FirstTry. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
