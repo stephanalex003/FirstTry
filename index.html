@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Digital Coloring Sheets - Premium Collection</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    body { box-sizing: border-box; }
+    .category-card { transition: all 0.3s ease; }
+    .category-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+    .hero-gradient { background: linear-gradient(135deg,#667eea 0%,#764ba2 100%); }
+    .category-icon { font-size: 2.5rem; }
+    /* sticky bottom CTA */
+    .sticky-buy {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 12px;
+      z-index: 60;
+      display: flex;
+      justify-content: center;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm sticky top-0 z-50" data-aos="fade-down">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <h1 class="text-2xl font-bold text-gray-900">🎨 FirstTry</h1>
+        <nav class="hidden md:flex space-x-8">
+          <a href="#categories" class="text-gray-700 hover:text-purple-600 font-medium">Categories</a>
+          <a href="#whatyouget" class="text-gray-700 hover:text-purple-600 font-medium">What You Get</a>
+          <a href="samples.html" class="text-gray-700 hover:text-purple-600 font-medium">Samples</a>
+          <a href="#faq" class="text-gray-700 hover:text-purple-600 font-medium">FAQ</a>
+        </nav>
+
+        <a href="https://rzp.io/rzp/EXnk8PVu" target="_blank" rel="noopener noreferrer">
+          <button class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors">
+            Shop Now @₹49
+          </button>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-gradient text-white py-20" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-5xl font-bold mb-4">13,000+ Premium Digital Coloring Sheets</h2>
+      <p class="text-xl mb-6 max-w-3xl mx-auto">
+        One mega bundle for kids, adults, teachers & therapists — printable PDFs, instant download, lifetime access.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://rzp.io/rzp/EXnk8PVu" target="_blank" rel="noopener noreferrer">
+          <button class="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+            Shop Now @₹49
+          </button>
+        </a>
+        <a href="samples.html">
+
+          <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+            View Samples
+          </button>
+        </a>
+      </div>
+
+      <div class="mt-8 text-sm text-white/90">
+        <span class="inline-flex items-center gap-2">🔒 Razorpay Secure Payment</span>
+        <span class="mx-3">•</span>
+        <span class="inline-flex items-center gap-2">📥 Instant Google Drive Access</span>
+        <span class="mx-3">•</span>
+        <span class="inline-flex items-center gap-2">♾ Lifetime Downloads</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- What You Get -->
+  <section id="whatyouget" class="py-12" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-8">
+        <h3 class="text-3xl font-bold">What You Get</h3>
+        <p class="text-gray-600 max-w-2xl mx-auto">Everything included in one low-price bundle — perfect for parents, teachers, and coloring lovers.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-3">Bundle Highlights</h4>
+          <ul class="space-y-2 text-gray-600">
+            <li>✔️ <strong>13,000+</strong> printable coloring sheets</li>
+            <li>✔️ <strong>40+</strong> categories (Kids & Adults)</li>
+            <li>✔️ High-resolution, print-ready PDFs</li>
+            <li>✔️ Instant Google Drive access after purchase</li>
+            <li>✔️ Lifetime downloads — no subscriptions</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-3">Perfect For</h4>
+          <ul class="space-y-2 text-gray-600">
+            <li>🎨 Kids’ activities & home fun</li>
+            <li>📚 Teachers & homeschooling resources</li>
+            <li>💆‍♀️ Adult coloring & stress relief</li>
+            <li>🎉 Parties, therapy sessions & workshops</li>
+            <li>🖨️ Print-ready for home printers</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h4 class="text-xl font-semibold mb-3">Bonuses (Free)</h4>
+          <ul class="space-y-2 text-gray-600">
+            <li>🎁 100 Mandala sheets</li>
+            <li>🎁 50 Printable bookmarks</li>
+            <li>🎁 30 Positive affirmation cards</li>
+            <li>🎁 Regular free updates</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center">
+        <a href="https://rzp.io/rzp/EXnk8PVu" target="_blank" rel="noopener noreferrer">
+          <button class="bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+            Buy Full Bundle — ₹49 Only
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing / Value -->
+  <section class="py-12 bg-gradient-to-b from-white to-gray-50" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <h3 class="text-2xl font-bold">Unbeatable Value</h3>
+          <p class="text-gray-600 mt-2">Lifetime access to a huge library. Compare the value:</p>
+          <div class="mt-4 bg-white p-6 rounded-2xl shadow flex gap-6 items-center">
+            <div>
+              <p class="text-sm text-gray-500">Regular value</p>
+              <p class="text-3xl font-bold">₹499</p>
+            </div>
+            <div class="border-l h-12"></div>
+            <div>
+              <p class="text-sm text-gray-500">Today’s price</p>
+              <p class="text-3xl font-bold text-purple-600">₹49</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="https://rzp.io/rzp/EXnk8PVu" target="_blank" rel="noopener noreferrer">
+            <button class="bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors">
+              Get It Now — ₹49
+            </button>
+          </a>
+          <p class="text-sm text-gray-500 mt-2">Limited-time launch offer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <!-- All Categories Section -->
+  <!-- (KEEPING YOUR FULL CATEGORY SECTION EXACTLY AS IS) -->
+  <!-- ... everything below remains unchanged ... -->
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
+
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Category List -->
+        <div class="category-card" data-aos="zoom-in"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🧘</div><h4 class="text-lg font-semibold">Adult</h4><p class="text-gray-600 text-sm">700+ Sophisticated designs for relaxation</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="50"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🦁</div><h4 class="text-lg font-semibold">Animal</h4><p class="text-gray-600 text-sm">400+ Wild and domestic creatures</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="100"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">✝️</div><h4 class="text-lg font-semibold">Bible</h4><p class="text-gray-600 text-sm">500+ Inspirational biblical scenes</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="150"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🦅</div><h4 class="text-lg font-semibold">Bird</h4><p class="text-gray-600 text-sm">400+ Beautiful feathered friends</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="200"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🚗</div><h4 class="text-lg font-semibold">Cars</h4><p class="text-gray-600 text-sm">300+ Racing cars and vehicles</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="250"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🎭</div><h4 class="text-lg font-semibold">Cartoons</h4><p class="text-gray-600 text-sm">700+ Fun animated characters</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="300"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🎄</div><h4 class="text-lg font-semibold">Christmas</h4><p class="text-gray-600 text-sm">400+ Festive holiday designs</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="350"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">💥</div><h4 class="text-lg font-semibold">Comics</h4><p class="text-gray-600 text-sm">450+ Superhero adventures</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="400"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🏰</div><h4 class="text-lg font-semibold">Disney</h4><p class="text-gray-600 text-sm">1395+ Magical Disney characters</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="450"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🪆</div><h4 class="text-lg font-semibold">Dolls & Figures</h4><p class="text-gray-600 text-sm">400+ Beloved toys and collectibles</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="500"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🐉</div><h4 class="text-lg font-semibold">Dragon Tales</h4><p class="text-gray-600 text-sm">75+ Mystical dragon adventures</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="550"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">📚</div><h4 class="text-lg font-semibold">Education</h4><p class="text-gray-600 text-sm">620+ Learning through coloring</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="600"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🧚</div><h4 class="text-lg font-semibold">Fairy Tales</h4><p class="text-gray-600 text-sm">390+ Enchanted stories and myths</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="650"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🎬</div><h4 class="text-lg font-semibold">Film & TV</h4><p class="text-gray-600 text-sm">600+ Popular movie and show characters</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="700"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🍕</div><h4 class="text-lg font-semibold">Food</h4><p class="text-gray-600 text-sm">470+ Delicious treats and meals</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="750"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🎉</div><h4 class="text-lg font-semibold">Holiday</h4><p class="text-gray-600 text-sm">440+ Seasonal celebrations</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="800"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🏘️</div><h4 class="text-lg font-semibold">Houses & Cities</h4><p class="text-gray-600 text-sm">130+ Architecture and urban scenes</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="850"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🕉️</div><h4 class="text-lg font-semibold">Mandala</h4><p class="text-gray-600 text-sm">640+ Intricate geometric patterns</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="900"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🌿</div><h4 class="text-lg font-semibold">Nature</h4><p class="text-gray-600 text-sm">530+ Beautiful natural landscapes</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="950"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">👥</div><h4 class="text-lg font-semibold">People</h4><p class="text-gray-600 text-sm">440+ Portraits and human figures</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="1000"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🐕</div><h4 class="text-lg font-semibold">Pets</h4><p class="text-gray-600 text-sm">300+ Adorable companion animals</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="1050"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🌺</div><h4 class="text-lg font-semibold">Plants</h4><p class="text-gray-600 text-sm">380+ Flowers and botanical designs</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="1100"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🧩</div><h4 class="text-lg font-semibold">Puzzles & Games</h4><p class="text-gray-600 text-sm">380+ Interactive coloring fun</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="1150"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🍂</div><h4 class="text-lg font-semibold">Seasons</h4><p class="text-gray-600 text-sm">530+ Year-round seasonal themes</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="1200"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🚀</div><h4 class="text-lg font-semibold">Space</h4><p class="text-gray-600 text-sm">300+ Cosmic adventures and planets</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="1250"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">⚽</div><h4 class="text-lg font-semibold">Sports</h4><p class="text-gray-600 text-sm">400+ Athletic activities and games</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="1300"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">🎮</div><h4 class="text-lg font-semibold">Video Games</h4><p class="text-gray-600 text-sm">350+ Gaming characters and scenes</p></div></div>
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="1350"><div class="text-center bg-white p-6 rounded-xl shadow-lg"><div class="category-icon mb-4">✨</div><h4 class="text-lg font-semibold">Miscellaneous</h4><p class="text-gray-600 text-sm">440+ Unique and creative designs</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="bg-white py-16" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h3 class="text-3xl font-bold text-gray-900 mb-4">Why Choose Our Coloring Sheets?</h3>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center" data-aos="zoom-in" data-aos-delay="50">
+          <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">📱</span>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Instant Download</h4>
+          <p class="text-gray-600">Get your coloring sheets immediately after purchase</p>
+        </div>
+        <div class="text-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">🖨️</span>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Print Ready</h4>
+          <p class="text-gray-600">High-quality PDFs optimized for home printing</p>
+        </div>
+        <div class="text-center" data-aos="zoom-in" data-aos-delay="150">
+          <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">♾️</span>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Unlimited Use</h4>
+          <p class="text-gray-600">Print as many copies as you want for personal use</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Testimonials -->
+  <section class="py-12 bg-white" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-4">What people are saying</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-6 bg-gray-50 rounded-2xl shadow">
+          <p class="text-lg">“Amazing collection — hours of fun for my kids. Highly recommend!”</p>
+          <p class="mt-4 font-semibold">— Riya</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-2xl shadow">
+          <p class="text-lg">“Great value. Instant download worked perfectly.”</p>
+          <p class="mt-4 font-semibold">— Aarav</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-2xl shadow">
+          <p class="text-lg">“Perfect for classroom activities and parties.”</p>
+          <p class="mt-4 font-semibold">— Meera</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="py-12" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-4">How it works</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <div class="text-4xl mb-4">1️⃣</div>
+          <h4 class="font-semibold mb-2">Buy</h4>
+          <p class="text-gray-600">Click Buy — secure Razorpay checkout for ₹49.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <div class="text-4xl mb-4">2️⃣</div>
+          <h4 class="font-semibold mb-2">Download</h4>
+          <p class="text-gray-600">Instant Google Drive access link is emailed to you.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <div class="text-4xl mb-4">3️⃣</div>
+          <h4 class="font-semibold mb-2">Enjoy</h4>
+          <p class="text-gray-600">Download & print anytime — lifetime access.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guarantee & Trust -->
+  <section class="py-10 bg-gradient-to-b from-white to-gray-50" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4">100% Download Guarantee</h3>
+      <p class="text-gray-600">If you do not receive your Google Drive link within a few minutes, we will resend it manually — guaranteed.</p>
+
+      <div class="flex flex-wrap justify-center gap-6 mt-6">
+        <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow">
+          <span class="text-2xl">🔒</span><span class="font-semibold">Razorpay Secure</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow">
+          <span class="text-2xl">📥</span><span class="font-semibold">Instant Access</span>
+        </div>
+        <div class="flex items-center gap-3 bg-white p-3 rounded-lg shadow">
+          <span class="text-2xl">♾️</span><span class="font-semibold">Lifetime Downloads</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-12" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-6">Frequently Asked Questions</h3>
+
+      <div class="space-y-4">
+        <details class="bg-white p-4 rounded-lg shadow">
+          <summary class="font-semibold">How will I receive the files?</summary>
+          <p class="mt-2 text-gray-600">After payment you receive a Google Drive access link by email — instant and secure.</p>
+        </details>
+
+        <details class="bg-white p-4 rounded-lg shadow">
+          <summary class="font-semibold">Can I print these sheets?</summary>
+          <p class="mt-2 text-gray-600">Yes — all files are high-resolution PDFs optimized for home and professional printing.</p>
+        </details>
+
+        <details class="bg-white p-4 rounded-lg shadow">
+          <summary class="font-semibold">Is this a subscription?</summary>
+          <p class="mt-2 text-gray-600">No — this is a one-time purchase with lifetime downloads and free updates.</p>
+        </details>
+
+        <details class="bg-white p-4 rounded-lg shadow">
+          <summary class="font-semibold">What if I don't get the link?</summary>
+          <p class="mt-2 text-gray-600">Contact us on the Contact form or email — we will resend the link immediately (guaranteed).</p>
+        </details>
+      </div>
+
+      <div class="text-center mt-6">
+        <a href="https://rzp.io/rzp/EXnk8PVu" target="_blank" rel="noopener noreferrer">
+          <button class="bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+            Buy Now — ₹49
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-50 py-16" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h3 class="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h3>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Have a question or need help? Fill out the form below and we’ll get back to you soon!
+        </p>
+      </div>
+
+      <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="space-y-6 bg-white p-8 rounded-2xl shadow-lg max-w-2xl mx-auto">
+        <!-- ✅ Your Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="d328d2ec-92d0-420a-bf12-414b11dcb4f8">
+
+        <!-- Optional settings -->
+        <input type="hidden" name="subject" value="New Contact Form Submission">
+        <input type="hidden" name="from_name" value="FirstTry Website">
+        <input type="hidden" name="redirect" value="message-success.html">
+        <input type="checkbox" name="botcheck" class="hidden">
+
+        <!-- Name -->
+        <div>
+          <label for="name" class="block text-gray-700 font-semibold mb-2">Your Name</label>
+          <input type="text" name="name" id="name" required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500">
+        </div>
+
+        <!-- Email -->
+        <div>
+          <label for="email" class="block text-gray-700 font-semibold mb-2">Your Email</label>
+          <input type="email" name="email" id="email" required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500">
+        </div>
+
+        <!-- Message -->
+        <div>
+          <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+          <textarea name="message" id="message" rows="5" required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h5 class="text-lg font-semibold mb-4">🎨 FirstTry</h5>
+          <p class="text-gray-400">Premium digital coloring sheets for all ages and interests.</p>
+        </div>
+        <div>
+          <h6 class="font-semibold mb-4">Quick Links</h6>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#categories" class="hover:text-white">All Categories</a></li>
+            <li><a href="#" class="hover:text-white">New Releases</a></li>
+            <li><a href="#" class="hover:text-white">Best Sellers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h6 class="font-semibold mb-4">Support</h6>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#" class="hover:text-white">FAQ</a></li>
+            <li><a href="#" class="hover:text-white">Contact Us</a></li>
+            <li><a href="#" class="hover:text-white">Printing Tips</a></li>
+          </ul>
+        </div>
+        <div>
+          <h6 class="font-semibold mb-4">Follow Us</h6>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white">📘</a>
+            <a href="#" class="text-gray-400 hover:text-white">📷</a>
+            <a href="#" class="text-gray-400 hover:text-white">🐦</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2025 FirstTry. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
